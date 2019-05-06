@@ -12,11 +12,11 @@ The app should be available at [http://localhost:4000](http://localhost:4000) in
 
 To seed the session database when first running the app, in localhost:4000 enter
 
-'''bash
+```bash
 mutation {
   createSession(data: "oh snap") {
     _id
     data
   }
 }
-'''
+```
